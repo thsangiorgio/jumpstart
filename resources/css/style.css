@@ -43,14 +43,14 @@ p {
 }
 /*============JUMBOTRON=============*/
 
-#jumbotron {
+/*.carousel {
   height: 46rem;
-}
+}*/
 .jumbotron {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 44rem;
+  height: 46rem;
   text-align: center;
   text-shadow: -1px -1px 0 #000,
               1px -1px 0 #000,
@@ -115,19 +115,24 @@ p {
   padding-bottom: 5.85rem;
 }
 /*============FOOTER=============*/
-.footer {
+footer {
   padding: 5.2rem 0;
   text-align: center;
   background-color: #f3f3f3;
 }
-.footer strong {
+footer strong {
   font-size: 2.5rem;
   font-weight: bold;
 }
-.footer p {
+footer p {
   max-width: 42rem;
-  margin-top: 1.4rem;
+  margin: 1.4rem auto;
 }
+/*footer .btn {
+  position: relative;
+  margin-bottom: 5.2rem;
+
+}*/
 @media only screen and (max-width: 750px) {
   .jumbotron h1 {
     font-size: 5.7rem;
